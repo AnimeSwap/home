@@ -1,0 +1,108 @@
+@import '~antd/dist/antd.less';
+
+.App {
+  font-family:  "Microsoft Yahei", "-apple-system", "Hiragino Sans","Segoe UI",Arial,Helvetica,sans-serif;
+}
+
+.slide {
+  height: 100vh;
+  margin-bottom: 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('./img/image1.jpg');
+  &--2{
+    background-image: url('./img/image1.jpg');
+  }
+  &--3{
+    background-image: url('./img/image2.jpg');
+  }
+  &--4{
+    background-image: url('./img/image3.jpg');
+  }
+  &--1{
+    background-image: url('./img/image4.jpg');
+  }
+}
+
+.slider-pagination {
+  position: fixed;
+  top: 50%;
+  z-index: 999;
+  font-size: 80px;
+  display: block;
+  height: 120px;
+  width: 40px;
+  margin-top: -40px;
+  text-shadow: 0 0 15px #000;
+  transition: all .5s ease-in-out;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Microsoft Yahei","Hiragino Sans","Segoe UI",Arial,Helvetica,sans-serif;
+}
+.slider-pagination:hover { text-shadow: 0 0 10px #ddd; }
+
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+
+.header {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  right: 15%;
+  max-width: 1200px;
+  color: #eee;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logo {
+  color: #eee;
+  text-shadow: 0 0 1em #000;
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 2px #ddd;
+    transition: 0.3s;
+  }
+}
+
+.navLink {
+  padding: 20px;
+  margin-top: -10px;
+  font-size: 20px;
+  color: #eee;
+  text-shadow: 0 0 1em #000;
+  &:hover {
+    color: #fff;
+    text-shadow: 0 0 2px #ddd;
+    transition: 0.3s;
+  }
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 6%;
+  left: 10%;
+  right: 10%;
+  max-width: 1340px;
+}
+
+.footerContent {
+  margin: 15px;
+  margin-top: 60px;
+  text-align: left;
+  color: #ddd;
+  z-index: 2;
+  line-height: 1.333;
+  font-size: 0.75em;
+  text-shadow: 0 0 1em #000;
+}
+
+.footerLink {
+  margin-right: 20px;
+}

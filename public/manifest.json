@@ -1,0 +1,15 @@
+{
+  "short_name": "AnimeSwap",
+  "name": "AnimeSwap",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#8A2BE2",
+  "background_color": "#4B0082"
+}
